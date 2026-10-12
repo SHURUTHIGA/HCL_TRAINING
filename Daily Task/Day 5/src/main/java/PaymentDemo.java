@@ -30,7 +30,7 @@ class CardPayment extends Payment implements Refundable {
 
     @Override
     void pay() {
-        System.out.println("Card transaction completed: " + amount);
+        System.out.println("Card payment completed successfully: " + amount);
     }
 
     @Override
