@@ -52,7 +52,7 @@ class UPIPayment extends Payment implements Refundable {
 
     @Override
     public void refund(double amount) {
-        System.out.println("UPI refund: " + amount);
+        System.out.println("UPI refund processed: " + amount);
     }
 }
 
